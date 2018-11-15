@@ -1,8 +1,8 @@
 {
-	"name": "pomelo-rpc",
+	"name": "@sex-pomelo/sex-pomelo-rpc",
 	"version": "1.0.7",
 	"dependencies": {
-		"mqtt-connection": "3.0.0",
+		"mqtt-connection": "4.0.0",
 		"crc": "0.2.0",
 		"pomelo-loader": "0.0.6",
 		"stream-pkg": "0.0.5",
