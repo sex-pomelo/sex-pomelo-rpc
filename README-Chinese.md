@@ -16,7 +16,7 @@ npm install pomelo-rpc
 ##用法
 ###Server
 ``` javascript
-var Server = require('pomelo-rpc').server;
+var Server = require('@sex-pomelo/sex-pomelo-rpc').server;
 
 // remote service path info list
 var paths = [
