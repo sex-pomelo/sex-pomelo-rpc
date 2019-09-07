@@ -1,6 +1,6 @@
 {
 	"name": "@sex-pomelo/sex-pomelo-rpc",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"dependencies": {
 		"mqtt-connection": "4.0.0",
 		"crc": "0.2.0",
