@@ -1,3 +1,8 @@
+1.0.13 / 2020-01-31
+=================
+ * suport ES6 class gen proxy function
+
+
 1.0.8 / 2019-01-08
 =================
   * [NEW] use @sex-pomelo/sex-pomelo-logger 
