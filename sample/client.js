@@ -33,7 +33,7 @@ client.start(function(err) {
   client.addProxies(records);
   client.addServers(servers);
 
-  var m = new Buffer('hello');
+  var m = Buffer.from('hello');
   // n = 'bbb';
   var fs = require('fs')
   // m = fs.readFileSync('./skill.js').toString();

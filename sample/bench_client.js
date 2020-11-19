@@ -67,7 +67,7 @@ var mock_data_3 = {
 var payload = mock_data_3;
 
 // console.log(new Buffer(payload).length / 1024 + 'k');
-console.log(new Buffer(JSON.stringify(payload)).length / 1024 + 'k');
+console.log(Buffer.from(JSON.stringify(payload)).length / 1024 + 'k');
 
 function run() {
   if (times > num_requests) {
