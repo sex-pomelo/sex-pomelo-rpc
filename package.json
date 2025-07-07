@@ -1,19 +1,20 @@
 {
 	"name": "@sex-pomelo/sex-pomelo-rpc",
 	"version": "1.0.15",
+	"types": "index.d.ts",
 	"homepage": "https://github.com/sex-pomelo/sex-pomelo-rpc",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/sex-pomelo/sex-pomelo-rpc"
 	},
 	"dependencies": {
-		"mqtt-connection": "4.1.0",
+		"@sex-pomelo/sex-pomelo-logger": "^0.1.16",
+		"async": "^3.2.6",
 		"crc": "3.5.0",
+		"mqtt-connection": "4.1.0",
 		"pomelo-loader": "0.0.7",
 		"stream-pkg": "0.0.5",
-		"@sex-pomelo/sex-pomelo-logger": "^0.1.16",
-		"uuid": "^8.3.2",
-		"async": "^3.2.6"
+		"uuid": "^8.3.2"
 	},
 	"devDependencies": {
 		"mocha": ">=0.0.1",
